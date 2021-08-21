@@ -1,10 +1,13 @@
 .place__link {
-max-width: 456px;
-max-height: 22px;
 font-family: Inter-Regular;
 font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
 cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .place__link {
+        width: 352px;
+    }
 }

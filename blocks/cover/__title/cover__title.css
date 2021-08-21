@@ -5,6 +5,17 @@
     line-height: 76px;
     position: relative;
     z-index: 1;
-    margin: 245px auto 32px auto;
+    margin: 245px auto 32px;
     max-width: 560px;
+  }
+
+  @media screen and (max-width: 1024px){
+    .cover__title {
+      margin: 195px auto 32px;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .cover__title {
+      margin: 115px auto 32px;
+    }
   }

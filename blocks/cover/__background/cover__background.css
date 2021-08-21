@@ -6,13 +6,20 @@
     color: #FFFFFF;
     background-image: url(../../../images/__background.png);
     background-size: 100%;
+    width: 1184px;
     min-height: 740px;
     background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px){
-    .cover__background   {
-        max-width: 1024px;
-        max-height: 640px;
+    .cover__background {
+        width: 1024px;
+        min-height: 640px;
     }
 }
+@media screen and (max-width: 768px){
+    .cover__background {
+        width: 768px;
+        min-height: 480px;
+    }
+  }
