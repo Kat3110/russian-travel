@@ -1,5 +1,12 @@
 .photo-grid__item {
-    width: 284px;
-    height: 213px;
-    margin: 0 16px 16px 0px;
+    max-width: 284px;
+    max-height: 213px;
+    margin: 0 16px 16px 16px;
+}
+@media screen and (max-width: 1024px)  and (max-height: 225px){
+    .photo-grid__item  {
+        max-width: 300px;
+        max-height: 225px;
+        margin: 0 14px 14px 14px;
+    }
 }

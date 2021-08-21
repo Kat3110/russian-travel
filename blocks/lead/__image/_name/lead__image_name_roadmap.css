@@ -1,6 +1,29 @@
 .lead__image_name_roadmap {
-    width: 886px;
+    max-width: 886px;
+    max-height: 615px;;
     position: absolute;
     top: 128.61px;
     left: 41.5px;
+}
+
+@media screen and (max-width: 1024px){
+    .lead__image_name_roadmap {
+        max-width: 836px;
+        top: 121px;
+        left: 39px;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead__image_name_roadmap {
+        max-width: 691px;
+        top: 100px;
+        left: 32px;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead__image_name_roadmap {
+        max-width: 288px;
+        top: 41px;
+        left: 13px;
+    }
 }

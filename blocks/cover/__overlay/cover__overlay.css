@@ -2,8 +2,8 @@
   position: absolute;
   top: 0;
   right: 0;
-  width: 1184px;
-  height: 740px;  
+  max-width: 1184px;
+  max-height: 740px;  
   background-color: #2A2C2F;
   opacity: 0.3;
 }
