@@ -4,3 +4,9 @@
     list-style-type: none;
     padding: 0;
 }
+@media screen and (max-width: 320px){
+    .footer__links {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -23,3 +23,14 @@
         line-height: 163%;
     }
 }
+@media screen and (max-width: 320px){
+    .place__paragraph  {
+        max-width: 288px;
+        margin: 25px 16px 0;
+        font-size: 16px;
+        line-height: 163%;
+    }
+    .place__paragraph:first-of-type {
+        margin: 32px 16px 0;
+    }
+}

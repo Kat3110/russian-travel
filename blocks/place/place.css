@@ -16,3 +16,9 @@
         margin: 0 0 72px 0;
     }
 }
+@media screen and (max-width: 320px){
+    .place {
+        max-width: 320px;
+        grid-template-columns: repeat(1, auto);
+    }
+}
