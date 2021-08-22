@@ -4,12 +4,12 @@
 }
 @media screen and (max-width: 768px){
     .place__website {
-        width: 45.833vw;
+        max-width: 45.833vw;
     }
 }
 @media screen and (max-width: 320px){
     .place__website {
-        width: 288px;
+        max-width: 288px;
         margin: 0 16px;
     }
 }

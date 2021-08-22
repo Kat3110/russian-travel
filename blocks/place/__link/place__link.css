@@ -1,5 +1,4 @@
 .place__link {
-    font-family: Inter-Regular;
     font-size: 18px;
     line-height: 22px;
     text-decoration-line: underline;
@@ -8,7 +7,7 @@
 }
 @media screen and (max-width: 768px){
     .place__link {
-        width: 45.833vw;
+        max-width: 45.833vw;
         font-size: 2.344vw;
         line-height: 2.865vw;
     }

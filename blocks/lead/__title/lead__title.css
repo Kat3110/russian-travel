@@ -5,7 +5,7 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    font-family: Inter-ExtraBold;
+    font-family: 'Inter-ExtraBold', sans-serif;
     color: #FFFFFF;
 }
 @media screen and (max-width: 1024px){
