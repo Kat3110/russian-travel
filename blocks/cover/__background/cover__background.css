@@ -13,14 +13,14 @@
 
 @media screen and (max-width: 1024px){
     .cover__background {
-        width: 1024px;
-        min-height: 640px;
+        width: 100vw;
+        min-height: 62.500vw;
     }
 }
 @media screen and (max-width: 768px){
     .cover__background {
-        width: 768px;
-        min-height: 480px;
+        width: 100vw;
+        min-height: 62.500vw;
     }
   }
   @media screen and (max-width: 320px){
