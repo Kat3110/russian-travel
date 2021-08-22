@@ -11,16 +11,16 @@
 }
 @media screen and (max-width: 1024px){
     .place__paragraph  {
-        max-width: 456px;
-        margin: 27px 0 0;
+        max-width: 44.531vw;
+        margin: 2.637vw 0 0;
     }
 }
 @media screen and (max-width: 768px){
     .place__paragraph  {
-        max-width: 352px;
-        margin: 25px 0 0;
-        font-size: 16px;
-        line-height: 163%;
+        max-width: 45.833vw;
+        margin: 3.255vw 0 0;
+        font-size: 2.083vw;
+        line-height: 3.385vw;
     }
 }
 @media screen and (max-width: 320px){

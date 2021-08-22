@@ -8,7 +8,7 @@ cursor: pointer;
 }
 @media screen and (max-width: 768px){
     .place__link {
-        width: 352px;
+        width: 45.833vw;
     }
 }
 @media screen and (max-width: 320px){

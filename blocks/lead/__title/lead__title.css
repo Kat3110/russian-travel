@@ -10,12 +10,14 @@
 }
 @media screen and (max-width: 1024px){
     .lead__title {
-        margin: 48px auto 32px;
+        margin: 4.688vw auto 3.125vw;
     }
 }
 @media screen and (max-width: 768px){
     .lead__title {
-        margin: 48px auto 32px;
+        margin: 6.250vw auto 4.167vw;
+        font-size: 12.500vw;
+        line-height: 13.021vw;
     }
 }
 @media screen and (max-width: 320px){

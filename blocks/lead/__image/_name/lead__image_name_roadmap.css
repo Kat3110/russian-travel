@@ -7,15 +7,15 @@
 
 @media screen and (max-width: 1024px){
     .lead__image_name_roadmap {
-        max-width: 836px;
-        top: 121px;
+        max-width: 81.641vw;
+        top: 11.816vw;
         left: 39px;
     }
 }
 @media screen and (max-width: 768px){
     .lead__image_name_roadmap {
-        max-width: 691px;
-        top: 100px;
+        max-width: 89.974vw;
+        top: 13.021vw;
         left: 32px;
     }
 }

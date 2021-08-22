@@ -8,6 +8,18 @@
     text-align: center;
     color: #FFFFFF;
 }
+@media screen and (max-width: 1024px){
+    .lead__subtitle {
+        max-width: 62.500vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead__subtitle {
+        font-size: 3.906vw;
+        line-height: 4.688vw;
+        max-width: 83.333vw;
+    }
+}
 @media screen and (max-width: 320px){
     .lead__subtitle {
         max-width: 288px;
