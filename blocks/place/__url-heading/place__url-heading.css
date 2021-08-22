@@ -10,6 +10,9 @@
 @media screen and (max-width: 768px){
     .place__url-heading {
         max-width: 45.833vw;
+        font-size: 1.563vw;
+        line-height: 1.563vw;
+        margin: 0 0 1.563vw;
     }
 }
 @media screen and (max-width: 320px){

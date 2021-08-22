@@ -14,6 +14,9 @@
         max-width: 44.531vw;
         margin: 2.637vw 0 0;
     }
+    .place__paragraph:first-of-type {
+        margin: 4.688vw 0 0;
+    }
 }
 @media screen and (max-width: 768px){
     .place__paragraph  {
@@ -21,6 +24,9 @@
         margin: 3.255vw 0 0;
         font-size: 2.083vw;
         line-height: 3.385vw;
+    }
+    .place__paragraph:first-of-type {
+        margin: 6.250vw 0 0;
     }
 }
 @media screen and (max-width: 320px){

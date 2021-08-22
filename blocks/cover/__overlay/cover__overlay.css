@@ -1,13 +1,18 @@
 .cover__overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 1184px;
-  height: 740px;  
-  background-color: #2A2C2F;
-  opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1184px;
+    height: 740px;  
+    background-color: #2A2C2F;
+    opacity: 0.3;
 }
-
+@media screen and (max-width: 1280px){
+  .cover__overlay {
+      width: 92.500vw;
+      height: 57.813vw;  
+  }
+}
 @media screen and (max-width: 1024px){
   .cover__overlay {
       width: 100vw;
@@ -17,7 +22,7 @@
 @media screen and (max-width: 768px){
   .cover__overlay {
       width: 100vw;
-      height: 62.500vw;
+      height: 61.069vw;
   }
 }
 @media screen and (max-width: 320px){

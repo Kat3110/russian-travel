@@ -10,7 +10,12 @@
     min-height: 740px;
     background-repeat: no-repeat;
 }
-
+@media screen and (max-width: 1280px){
+    .cover__background {
+        width: 92.500vw;
+        min-height: 57.813vw;  
+    }
+}
 @media screen and (max-width: 1024px){
     .cover__background {
         width: 100vw;
@@ -20,7 +25,7 @@
 @media screen and (max-width: 768px){
     .cover__background {
         width: 100vw;
-        min-height: 62.500vw;
+        min-height: 61.069vw;
     }
   }
   @media screen and (max-width: 320px){
