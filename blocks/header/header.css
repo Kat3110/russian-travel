@@ -6,8 +6,8 @@
     padding-top: 28px;
 }
 @media screen and (max-width: 1280px){
-  .header {
-      max-width: 92.500vw;
+    .header {
+       max-width: 92.500vw;
   }
 }
 @media screen and (max-width: 1024px){
@@ -22,6 +22,6 @@
 }
 @media screen and (max-width: 320px){
     .header {
-        max-width: 288px;
+        min-width: 288px;
     }
 }

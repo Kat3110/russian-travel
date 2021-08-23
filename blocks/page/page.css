@@ -19,6 +19,7 @@
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     background: #2A2C2F;
+    -webkit-font-smoothing: antialiased;
 }
 @media screen and (max-width: 1280px) {
     .page {
@@ -27,6 +28,6 @@
 }
 @media screen and (max-width: 320px){
     .page {
-        max-width: 320px;
+        min-width: 320px;
     }
 }

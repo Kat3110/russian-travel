@@ -13,6 +13,6 @@
 }
 @media screen and (max-width: 320px) {
     .lead__image_name_main {
-        max-width: 320px;
+        min-width: 320px;
     }
 }
