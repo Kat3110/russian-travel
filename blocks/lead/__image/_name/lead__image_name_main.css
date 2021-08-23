@@ -8,7 +8,7 @@
 }
 @media screen and (max-width: 768px) {
     .lead__image_name_main {
-        max-width: 100vw;
+        max-width: 100%;
     }
 }
 @media screen and (max-width: 320px) {
