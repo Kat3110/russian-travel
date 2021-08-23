@@ -9,14 +9,14 @@
     .lead__image_name_roadmap {
         max-width: 81.641vw;
         top: 11.816vw;
-        left: 39px;
+        left: 3.809vw;
     }
 }
 @media screen and (max-width: 768px){
     .lead__image_name_roadmap {
         max-width: 89.974vw;
         top: 13.021vw;
-        left: 32px;
+        left: 4.167vw;
     }
 }
 @media screen and (max-width: 320px){

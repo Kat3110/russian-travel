@@ -4,13 +4,13 @@
 }
 @media screen and (max-width: 1024px){
     .lead  {
-        margin: 48px auto 92px;
+        margin: 4.688vw auto 8.984vw;
         max-width: 90.625vw;
     }
 }
 @media screen and (max-width: 768px){
     .lead  {
-        margin: 48px auto 88px;
+        margin: 6.250vw auto 11.458vw;
         max-width: 100%;
     }
 }
