@@ -20,5 +20,6 @@
     .place {
         min-width: 320px;
         grid-template-columns: repeat(1, auto);
+        margin: 0 0 50px 0;
     }
 }

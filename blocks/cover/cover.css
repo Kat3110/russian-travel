@@ -3,9 +3,6 @@
     margin: 92px auto;
     position: relative;
 }
-.cover:hover .cover__overlay {
-    opacity: 0.8;
-}
 @media screen and (max-width: 1280px){
   .cover {
       max-width: 92.500vw;
@@ -18,7 +15,6 @@
 }
 @media screen and (max-width: 768px){
   .cover {
-      max-width: 100%;
       margin: 11.979vw auto;
   }
 }

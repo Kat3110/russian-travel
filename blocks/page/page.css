@@ -1,16 +1,11 @@
 .page {
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
     background: #2A2C2F;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
     
-}
-@media screen and (max-width: 1280px) {
-    .page {
-        max-width: 100%;
-    }
 }
 @media screen and (max-width: 320px){
     .page {

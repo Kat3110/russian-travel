@@ -5,6 +5,9 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+.place__link:hover {
+    opacity: 0.8;
+}
 @media screen and (max-width: 768px){
     .place__link {
         max-width: 45.833vw;
@@ -16,5 +19,7 @@
     .place__link {
         min-width: 288px;
         margin: 0 0 32px;
+        font-size: 18px;
+        line-height: 22px;
     }
 }
