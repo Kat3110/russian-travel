@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
     .lead__image {
         margin: 7.292vw auto 0;
-        max-width: 100vw;
+        max-width: 100%;
         height: 62.500vw;
     }
 }
