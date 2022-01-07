@@ -1,29 +1,92 @@
 .footer {
-    max-width: 1184px;
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-between;
-    padding-bottom: 24px;
+  max-width: 1184px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 24px;
 }
-@media screen and (max-width: 1280px){
-    .footer {
-        max-width: 92.500vw;
-    }
+
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
 }
-@media screen and (max-width: 1024px){
-    .footer {
-        max-width: 90.625vw;
-    }
+
+.footer__link {
+  margin: 0 18px 0 0;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #ffff;
 }
-@media screen and (max-width: 768px){
-    .footer {
-        max-width: 93.750vw;
-    }
+
+.footer__link:hover {
+  opacity: 0.8;
 }
-@media screen and (max-width: 320px){
-    .footer {
-        min-width: 186px;
-        display: block;
-        margin: 0 auto 0 16px;
-    }
+
+.footer__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    max-width: 92.500vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 90.625vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 93.750vw;
+  }
+  .footer__copyright {
+    font-size: 1.823vw;
+    line-height: 2.083vw;
+  }
+  .footer__link {
+    font-size: 2.083vw;
+    line-height: 2.344vw;
+    margin: 0 2.344vw 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    min-width: 186px;
+    display: block;
+    margin: 0 auto 0 16px;
+  }
+  .footer__copyright {
+    line-height: 14px;
+    text-align: left;
+    font-size: 14px;
+  }
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+    margin: 0 0 32px;
+    text-align: left;
+  }
+  .footer__links {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=footer.css.map */

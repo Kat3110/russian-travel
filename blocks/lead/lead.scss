@@ -1,0 +1,100 @@
+.lead {
+    max-width: 984px;
+    margin: 56px auto 92px;
+}
+.lead__caption {
+    margin: 8px 0 0;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.lead__image {
+    margin: 64px auto 0;
+    max-width: 984px;
+    height: 615px;
+}
+.lead__subtitle {
+    max-width: 640px;
+    margin: 0 auto 0;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.lead__title {
+    max-width: 720px;
+    margin: 0 auto 32px;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1024px){
+    .lead  {
+        margin: 4.688vw auto 8.984vw;
+        max-width: 90.625vw;
+    }
+    .lead__image {
+        margin: 5.469vw auto 0;
+        max-width: 90.625vw;
+        height: 60.059vw;
+    }
+    .lead__subtitle {
+        max-width: 62.500vw;
+    }
+    .lead__title {
+        margin: 4.688vw auto 3.125vw;
+    }
+}
+@media screen and (max-width: 768px){
+    .lead  {
+        margin: 6.250vw auto 11.458vw;
+        max-width: 100%;
+    }
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }
+    .lead__image {
+        margin: 7.292vw auto 0;
+        max-width: 100%;
+        height: 62.500vw;
+    }
+    .lead__subtitle {
+        font-size: 3.906vw;
+        line-height: 4.688vw;
+        max-width: 83.333vw;
+    }
+    .lead__title {
+        margin: 6.250vw auto 4.167vw;
+        font-size: 12.500vw;
+        line-height: 13.021vw;
+    }
+}
+@media screen and (max-width: 320px){
+    .lead  {
+        min-width: 100%;
+        margin: 48px auto 64px;
+    }
+    .lead__caption {
+        margin: 8px 0 0 16px;
+    }
+    .lead__image {
+        margin: 40px auto 0;
+        min-width: 320px;
+        min-height: 200px;
+    }
+    .lead__subtitle {
+        min-width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .lead__title {
+        margin: 48px auto 16px;
+        min-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

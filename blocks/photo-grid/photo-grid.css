@@ -1,33 +1,70 @@
 .photo-grid {
-    margin: 92px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-    max-width: 1184px;
+  margin: 92px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(284px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  max-width: 1184px;
 }
-@media screen and (max-width: 1280px){
-    .photo-grid {
-        max-width: 92.500vw;
+
+.photo-grid__item {
+  width: 284px;
+  height: 213px;
+  margin: 0 16px 16px 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .photo-grid {
+    max-width: 92.500vw;
+    -ms-grid-columns: (minmax(22.188vw, 1fr))[auto-fit];
         grid-template-columns: repeat(auto-fit, minmax(22.188vw, 1fr));
-    }
+  }
+  .photo-grid__item {
+    width: 22.188vw;
+    height: 16.641vw;
+    margin: 0 1.250vw 1.250vw 0;
+  }
 }
-@media screen and (max-width: 1024px){
-    .photo-grid  {
-        max-width: 90.625vw;
-        margin: 8.984vw auto;
-        grid-template-columns: repeat(3 , 1fr);
-    }
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: 90.625vw;
+    margin: 8.984vw auto;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+  .photo-grid__item {
+    width: 29.297vw;
+    height: 21.973vw;
+    margin: 0 1.367vw 1.367vw 0;
+  }
 }
-@media screen and (max-width: 768px){
-    .photo-grid  {
-        max-width: 93.750vw;
-        grid-template-columns: repeat(2 , 1fr);
-        margin: 11.458vw auto;
-    }
+
+@media screen and (max-width: 768px) {
+  .photo-grid {
+    max-width: 93.750vw;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    margin: 11.458vw auto;
+  }
+  .photo-grid__item {
+    width: 45.833vw;
+    height: 34.375vw;
+    margin: 0 2.083vw 2.083vw 0;
+  }
 }
-@media screen and (max-width: 320px){
-    .photo-grid  {
-        min-width: 288px;
-        grid-template-columns: repeat(1 , 1fr);
-        margin: 64px auto;
-    }
+
+@media screen and (max-width: 320px) {
+  .photo-grid {
+    min-width: 288px;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    margin: 64px auto;
+  }
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
+    margin: 0 auto 12px;
+  }
 }
+/*# sourceMappingURL=photo-grid.css.map */

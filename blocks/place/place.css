@@ -1,25 +1,191 @@
 .place {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    margin: 0 0 80px 0;
-    max-width: 984px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[2];
+      grid-template-columns: repeat(2, auto);
+  margin: 0 0 80px 0;
+  max-width: 984px;
 }
-@media screen and (max-width: 1024px){
-    .place {
-        max-width: 90.625vw;
-        margin: 0 0 7.031vw 0;
-    }
+
+.place__image {
+  max-width: 460px;
+  max-height: 460px;
+  margin: 48px 40px 0 0;
 }
-@media screen and (max-width: 768px){
-    .place {
-        max-width: 93.750vw;
-        margin: 0 0 9.375vw 0;
-    }
+
+.place__link {
+  font-size: 18px;
+  line-height: 22px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #FFFFFF;
+  cursor: pointer;
 }
-@media screen and (max-width: 320px){
-    .place {
-        min-width: 320px;
+
+.place__link:hover {
+  opacity: 0.8;
+}
+
+.place__paragraph {
+  max-width: 484px;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 26px 0 0;
+}
+
+.place__paragraph:first-of-type {
+  margin: 48px 0 0;
+}
+
+.place__title {
+  max-width: 460px;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  color: #FFFFFF;
+  margin: 0 40px 0 0;
+}
+
+.place__url-heading {
+  max-width: 456px;
+  margin: 0 0 12px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  text-transform: uppercase;
+}
+
+.place__website {
+  max-width: 456px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+@media screen and (max-width: 1280px) {
+  .place__title {
+    font-size: 5.625vw;
+    margin: 0 3.125vw 0 0;
+    max-width: 35.938vw;
+    line-height: 5.938vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    max-width: 90.625vw;
+    margin: 0 0 7.031vw 0;
+  }
+  .place__image {
+    max-width: 42.969vw;
+    max-height: 42.969vw;
+    margin: 4.688vw 3.125vw 0 0;
+  }
+  .place__paragraph {
+    max-width: 44.531vw;
+    margin: 2.637vw 0 0;
+  }
+  .place__paragraph:first-of-type {
+    margin: 4.688vw 0 0;
+  }
+  .place__title {
+    font-size: 7.031vw;
+    line-height: 7.422vw;
+    max-width: 42.969vw;
+    margin: 0 3.906vw 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    max-width: 93.750vw;
+    margin: 0 0 9.375vw 0;
+  }
+  .place__image {
+    max-width: 44.271vw;
+    max-height: 44.271vw;
+    margin: 6.250vw 3.646vw 0 0;
+  }
+  .place__link {
+    max-width: 45.833vw;
+    font-size: 2.344vw;
+    line-height: 2.865vw;
+  }
+  .place__paragraph {
+    max-width: 45.833vw;
+    margin: 3.255vw 0 0;
+    font-size: 2.083vw;
+    line-height: 3.396vw;
+  }
+  .place__paragraph:first-of-type {
+    margin: 6.250vw 0 0;
+  }
+  .place__title {
+    max-width: 44.271vw;
+    margin: 0 3.646vw 0 0;
+    font-size: 5.469vw;
+    line-height: 5.990vw;
+  }
+  .place__url-heading {
+    max-width: 45.833vw;
+    font-size: 1.563vw;
+    line-height: 1.563vw;
+    margin: 0 0 1.563vw;
+  }
+  .place__website {
+    max-width: 45.833vw;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
+    font-size: 2.824vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    min-width: 320px;
+    -ms-grid-columns: (auto)[1];
         grid-template-columns: repeat(1, auto);
-        margin: 0 0 50px 0;
-    }
+    margin: 0 0 50px 0;
+  }
+  .place__image {
+    min-width: 320px;
+    min-height: 320px;
+    margin: 32px 0 0;
+  }
+  .place__link {
+    min-width: 288px;
+    margin: 0 0 32px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .place__paragraph {
+    min-width: 288px;
+    margin: 25px 16px 0;
+    font-size: 16px;
+    line-height: 163%;
+  }
+  .place__paragraph:first-of-type {
+    margin: 32px 16px 0;
+  }
+  .place__title {
+    min-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+  .place__url-heading {
+    min-width: 288px;
+    margin: 32px 0 12px;
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .place__website {
+    min-width: 288px;
+    margin: 0 16px;
+  }
 }
+/*# sourceMappingURL=place.css.map */
