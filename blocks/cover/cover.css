@@ -4,6 +4,10 @@
   position: relative;
 }
 
+.cover:hover .cover__background::before {
+  opacity: 0.8;
+}
+
 .cover__title {
   font-size: 72px;
   font-weight: 900;
@@ -25,12 +29,6 @@
   max-width: 360px;
 }
 
-.cover__background,
-.cover__background::before {
-  width: 1184px;
-  min-height: 740px;
-}
-
 .cover__background {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -47,6 +45,8 @@
   background-image: url(../../images/__background.png);
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 1184px;
+  min-height: 740px;
 }
 
 .cover__background::before {
@@ -56,10 +56,8 @@
   right: 0;
   background-color: #2A2C2F;
   opacity: 0.3;
-}
-
-.cover:hover .cover__background::before {
-  opacity: 0.8;
+  width: 1184px;
+  min-height: 740px;
 }
 
 @media screen and (max-width: 1280px) {
